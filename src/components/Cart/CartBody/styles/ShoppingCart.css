@@ -1,0 +1,54 @@
+#shopping-cart-card {
+    box-shadow : rgb(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 2vw;
+    padding: 3vw 0;
+    border-radius: 10px;
+}
+
+#shopping-cart-card > h1 {
+    font-size:2.5vw;
+    margin:0;
+}
+
+#shopping-cart-card > section {
+    display:flex;
+}
+
+#shopping-cart-card > section > p:first-child {
+    text-decoration: line-through;
+    margin-right:1vw;
+}
+
+#shopping-cart-wrapper {
+    height:90vh;
+    overflow-y: scroll;
+    background-image: url("https://wallpaperaccess.com/full/418565.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#shopping-cart-wrapper > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw auto;
+    justify-content: center;
+    width: 80%;
+}
+
+#shopping-cart-wrapper > h1 {
+    color:#fff;
+    background-color: #000;
+    padding: 1vw;
+    font-size: 3vw;
+}

@@ -1,0 +1,19 @@
+#individual-event-wrapper {
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 2vw;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#event-cards-wrapper {
+    display: flex;
+}
+
+#add-event-modal, #edit-modal-wrapper{
+    padding: 4vw;
+    background-color: #fff;
+}

@@ -1,0 +1,54 @@
+#scrane-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#players-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    margin: 2vw;
+    width: 40%;
+    justify-content: space-evenly;
+    box-shadow: rgb(0,0,0,0.3) 0px 5px 10px;
+}
+
+#players-wrapper > section {
+    padding: 2vw;
+}
+
+#dice-current-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#dice-current-wrapper > img {
+    width: 5vw;
+    height: auto;
+}
+
+#dice-current-wrapper > section > div {
+    padding: 2vw;
+    background-color: cadetblue;
+    width: 30%;
+    margin-top: 1vw;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: rgb(0,0,0,0.3) 0px 5px 10px;
+    cursor: pointer;
+}
+
+#dice-current-wrapper > section {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#dice-current-wrapper > section > div:last-child {
+    background-color:rebeccapurple;
+}

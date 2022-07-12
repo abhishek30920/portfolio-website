@@ -1,0 +1,12 @@
+#tab-panel-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tab-content {
+    text-align: center;
+}
+
+.active-tab {
+    color: brown;
+}

@@ -1,0 +1,23 @@
+#review-slider-wrapper {
+    margin-bottom: 5vw;
+    width: 90%;
+    padding: 5vw 0;
+    margin: 0 auto;
+}
+
+#review-card-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 50vh;
+    margin: 2vw;
+    padding: 2vw 1vw;
+}
+
+#review-card-wrapper > p {
+    height: 45%;
+    overflow-y: scroll;
+}
+
+#review-card-wrapper:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

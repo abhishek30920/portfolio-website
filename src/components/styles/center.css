@@ -1,0 +1,32 @@
+.parentDiv {
+    /* width: 100vw;
+    height: 100vh;
+    background-color: aqua; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* position: relative; */
+    height: 1000vh;
+}
+
+.parentDiv > span {
+    color: #000;
+}
+
+.childDiv {
+    /* background-color: blue;
+    width: 100px;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    /* margin: auto 0; */
+    color: #000;
+    height: 20px;
+    text-align: center;
+}
+
+#delegation > li {
+    color: #000;
+    cursor: pointer;
+}

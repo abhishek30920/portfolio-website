@@ -1,0 +1,27 @@
+#cart-footer-wrapper {
+    padding: 2vw 2vw;
+    padding-left: 10vw;
+    box-shadow: rgb(0,0,0,0.4) 0px 5px 15px;
+    display:flex;
+    justify-content: space-between;
+    background-color: beige;
+    bottom: 0;
+}
+
+#cart-footer-wrapper > p {
+    width: 40%;
+    font-weight: 500;
+    font-size:1.5vw;
+}
+
+#cart-footer-wrapper > section {
+    display: flex;
+    width:55%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#cart-footer-wrapper > section > p {
+    width: 50%;
+    font-weight: 500;
+}

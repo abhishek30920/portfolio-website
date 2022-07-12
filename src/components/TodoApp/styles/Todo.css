@@ -1,0 +1,87 @@
+.todo-app-wrapper {
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/23/19/38/shopping-carts-1275480__480.jpg");
+    padding: 4vw;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.todo-app-wrapper > h1 {
+  color:#fff;
+  font-size: 2.5vw;
+  margin: 0;
+}
+
+#todo-display-wrapper
+ {
+    width:90%;
+    height:30vh;
+    background-color: #fff;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+#todo-wrapper {
+  border: 1px solid #eee;
+  background-image: url("https://i.pinimg.com/736x/59/c0/ae/59c0ae28219e433a7e4e4be8e3b2c27f.jpg");
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  margin:10px;
+  padding: 1vw 2vw;
+  border-radius:10px;
+}
+
+#todo-wrapper > span {
+  color:#555;
+  font-size: 2vw;
+  font-weight: 500;
+  margin-right:2vw;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+#todo-input-wrapper {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#todo-input-wrapper > input {
+    border:none;
+    margin-top: 2vw;
+    padding-left: 8px;
+}
+
+#todo-input-wrapper > button {
+    width: 50%;
+    margin-top:1vw;
+}
+
+.strike-todo {
+    text-decoration: line-through;
+}

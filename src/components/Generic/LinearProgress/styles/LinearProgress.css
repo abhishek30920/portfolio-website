@@ -1,0 +1,21 @@
+.linear-progress{
+    width:200px;
+    height:10px;
+    border:1px solid black;
+    position:relative;
+}
+
+.linear-progress::after {
+    content:'\A';
+    position:absolute;
+    background:chocolate;
+    top:0; bottom:0;
+    left:0;
+}
+
+.linear-progress-wrpper {
+    position: fixed;
+    top:10vw;
+    left:10vw;
+    z-index:10000;
+}

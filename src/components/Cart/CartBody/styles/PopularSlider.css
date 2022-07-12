@@ -1,0 +1,22 @@
+#popular-slider-wrapper {
+    margin-bottom: 5vw;
+    width: 90%;
+    padding: 2vw 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#popular-card-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:2vw;
+    padding: 2vw 1vw;
+}
+
+#popular-card-wrapper > h1, #popular-card-wrapper >p  {
+    color: #fff;
+}
+
+#popular-card-wrapper:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

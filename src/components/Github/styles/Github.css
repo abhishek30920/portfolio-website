@@ -1,0 +1,22 @@
+#repo-data-card-wrapper {
+    border: 1px solid #000;
+    padding: 2vw;
+    margin: 2vw;
+}
+
+#repo-data-card-wrapper > section {
+    display:flex;
+    justify-content: space-between;
+}
+
+.parallax-class {
+    background-image: url("https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

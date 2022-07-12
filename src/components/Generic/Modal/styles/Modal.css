@@ -1,0 +1,17 @@
+.My-Modal-Wrapper {
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(0,0,0,0.3);
+    position: absolute;
+    top:0;
+    z-index: 1000;
+}
+
+.My-Modal-Content-Wrapper {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: pink;
+    padding: 5vw;
+}
